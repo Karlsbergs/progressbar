@@ -16,7 +16,7 @@ func main() {
 		progressbar.OptionEnableColorCodes(true),
 		progressbar.OptionShowBytes(true),
 		progressbar.OptionSetWidth(15),
-		progressbar.OptionSetDescription("[cyan][1/3][reset] Writing moshable file..."),
+		progressbar.OptionSetDescription("[cyan][1/3][reset] Updating ..."),
 		progressbar.OptionSetTheme(progressbar.Theme{
 			Saucer:        "[green]=[reset]",
 			SaucerHead:    "[green]>[reset]",
